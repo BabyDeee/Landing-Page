@@ -52,6 +52,12 @@ body{
     .text{
         padding-top: 0 !important;
     }
+    .textt{
+        padding-left: 20px !important;
+    }
+    .exp-btn{
+        margin-left: 20px !important;
+    }
     .what-we-do{
         margin-bottom: 0 !important;
     }

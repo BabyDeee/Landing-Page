@@ -1,67 +1,31 @@
-body{
-    font-family: 'Inter', sans-serif;
-}
-.get-started{
-    position: relative;
-}
-.gs{
-    background-image: url('../img/first-circles.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 100% 100%;
-    width:80px;
-    height: 50%;
-    position: absolute;
-    z-index: -1;
-}
-.circle2 img{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    height: auto;
-    max-width: 80px;
-    z-index: -1;
-}
-.trust, .client{
-    background-color: #D4E4FB;
-}
-.trust{
-    color: #08182F;
-}
-.lp-blog{
-    background-color: #F5F5F5;
-}
-.btn-primary{
-    background-color: #2776EA !important;
-}
-.companies img{
-    width: 70%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    filter: grayscale(100%);
-    transition: all 0.4s ease-in-out;
-} 
-.companies img:hover{
-    filter: grayscale(0);
-    transform: scale(1.5);
-}
+body{font-family: 'Inter', sans-serif;}
+
+.get-started{position: relative;}
+
+.gs{background-image: url('../img/first-circles.png'); background-repeat: no-repeat; background-position: left top; background-size: 100% 100%; width:80px; height: 50%; position: absolute; z-index: -1; }
+
+.circle2 img{position: absolute; bottom: 0px; right: 0px; height: auto; max-width: 80px; z-index: -1;}
+
+.trust, .client{background-color: #D4E4FB;}
+
+.trust{color: #08182F;}
+
+.lp-blog{background-color: #F5F5F5;}
+
+.btn-primary{background-color: #2776EA !important;}
+.companies img{width: 70%;padding-bottom: 10px;padding-top: 10px;filter: grayscale(100%);transition: all 0.4s ease-in-out;} 
+.companies img:hover{filter: grayscale(0);transform: scale(1.5);}
+
 @media (max-width: 768px){
-    .companies img{
-        width: 40%;
-    }
-    .text{
-        padding-top: 0 !important;
-    }
-    .textt{
-        padding-left: 20px !important;
-    }
-    .exp-btn{
-        margin-left: 20px !important;
-    }
-    .what-we-do{
-        margin-bottom: 0 !important;
-    }
-    .what-we-do h1{
-        padding-top: 30px !important;
-    }
+    .companies img{width: 40%;}
+
+    .text{padding-top: 0 !important;}
+
+    .textt{padding-left: 20px !important;}
+
+    .exp-btn{margin-left: 20px !important;}
+
+    .what-we-do{margin-bottom: 0 !important;}
+
+    .what-we-do h1{padding-top: 30px !important;}
 }

@@ -34,9 +34,9 @@ body{font-family: 'Inter', sans-serif;}
 .blog-image :hover + .read, .blog-image :hover + .read2{display: block !important;} 
 @media(max-width: 425px){
     .read{background-color: #2B2B2B; opacity: 0.8; position: absolute; background-size: contain; bottom: 10%; top: 50%; left: 0%; right: 0%; transform: translate(0%, 0%); display: none; width: 83%; }
-    .read2{background-color: #2B2B2B; opacity: 0.8; position: absolute; background-size: contain; bottom: 5%; top: 75%;   transform: translate(0%, 0%); display: none; width: 100%;}  
+    .read2{background-color: #2B2B2B; opacity: 0.8; position: absolute; background-size: contain; bottom: 6%; top: 75%; transform: scale(1.1); display: none; width: 100%;}  
 }
-@media (max-width: 768px){
+@media (max-width: 768px) and (min-width: 440px){
     .companies img{width: 40%;}
     .image img{padding-top: 80px !important;}
     .text{padding-top: 0 !important; margin-top: 0 !important;}
@@ -44,4 +44,6 @@ body{font-family: 'Inter', sans-serif;}
     .exp-btn{margin-left: 20px !important;}
     .what-we-do{margin-bottom: 0 !important;}
     .what-we-do h1{padding-top: 30px !important;}
+    .read{background-color: #2B2B2B; opacity: 0.8; position: absolute; background-size: cover; bottom: 6%; top: 43%; left: 0%; right: 0%; transform: scale(0.86); display: none; width: 83%; }
+    .read2{background-color: #2B2B2B; opacity: 0.8; position: absolute; background-size: contain; bottom: 9%; top: 60%; transform: scale(0.94); display: none;}  
 }
